@@ -1,8 +1,9 @@
-set(VOREEN_VERSION   4.3 )
-set(VOREEN_REPO_URL  https://github.com/bilgili/Voreen.git )
-set(VOREEN_REPO_TAG bbp )
-set(VOREEN_DEPENDS  DevIL )
+set(VOREEN_VERSION 4.3)
+set(VOREEN_REPO_URL https://github.com/bilgili/Voreen.git)
+set(VOREEN_REPO_TAG bbp)
+set(VOREEN_DEPENDS DevIL)
 set(VOREEN_NOPACKAGE ON)
 set(VOREEN_NOTEST ON)
 set(VOREEN_OPTIONAL ON)
+set(VOREEN_CMAKE_ARGS -DBoost_NO_SYSTEM_PATHS=true)
 
